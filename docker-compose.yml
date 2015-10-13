@@ -1,0 +1,16 @@
+web:
+    build: .
+    volumes:
+        - .:/app
+    links:
+        - db
+    ports:
+        - "40000:4000"
+
+db:
+    image: mysql
+    environment:
+        MYSQL_USER: medicine
+        MYSQL_PASSWORD: medicine
+        MYSQL_DATABASE: medicine
+        MYSQL_ROOT_PASSWORD: medicine_root
