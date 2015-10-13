@@ -1,3 +1,9 @@
 [submodule "apps/medicine"]
 	path = apps/medicine
 	url = git@github.com:matteosister/medicine.git
+[submodule "apps/medicine-web"]
+	path = apps/medicine-web
+	url = git@github.com:matteosister/medicine-web.git
+[submodule "apps/medicine_web"]
+	path = apps/medicine_web
+	url = git@github.com:matteosister/medicine-web.git
