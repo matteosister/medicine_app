@@ -17,6 +17,6 @@ RUN mix local.hex --force
 RUN mix local.rebar --force
 RUN mix hex.info
 
-WORKDIR /app/apps/web
+WORKDIR /app
 
 CMD ["./startup.sh"]
